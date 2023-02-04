@@ -517,7 +517,7 @@ section {
     position: absolute;
     content: "";
     width: 40%;
-    background: rgba(0, 81, 255);
+    background: rgba(0, 81, 255,0.2);
     top: 0;
     bottom: 0;
   }
@@ -532,7 +532,7 @@ section {
 
 @media (max-width: 1034px) {
   .hero:before {
-    background: rgba(0, 81, 255, 0.7);
+    background: rgba(0, 81, 255, 0.2);
   }
 }
 
